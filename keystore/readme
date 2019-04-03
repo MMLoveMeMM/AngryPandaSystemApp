@@ -10,7 +10,7 @@
 keytool-importkeypair.bash -k 签名文件名[含扩展名] -p 密码 -pk8 platform.pk8 -cert platform.x509.pem -alias 别名
 keytool-importkeypair.bash -k liuzhibao.jks -p liuzhibao1111 -pk8 platform.pk8 -cert platform.x509.pem -alias liuzhibao
 
-3.idpad_keystore_bat.jks：原始签名文件，备份用
+3.liuzhibao.jks：原始签名文件，备份用
 
 备注:
 keytool-importkeypair是shell脚本,必须是Linux系统格式文本,可以使用vim打开该文件,然后执行
